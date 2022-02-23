@@ -1,0 +1,1938 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage{fullpage}
+\usepackage{mathptmx} % rm & math
+\usepackage[scaled=0.1]{helvet} % ss
+\flushbottom
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 0cm
+\topmargin 0cm
+\rightmargin 0cm
+\bottommargin 0cm
+\headheight 0cm
+\headsep 0cm
+\footskip 0cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+gravitomagnetismi eksperiment
+\end_layout
+
+\begin_layout Part
+Sissejuhatus
+\end_layout
+
+\begin_layout Standard
+Selle töö eesmärk on kastseliselt tõestada Gravitimagneetilist nähtust.
+ Gravitimagneetilise välja tekitamiseks loomiseks kasutan pöörlevat silndrit.
+\end_layout
+
+\begin_layout Part
+Sisu
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$B_G$
+\end_layout
+
+\end_inset
+
+ ühik on 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$N/kg/(m/s)=(m/s^2)/(m/s)=1/s$
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Section
+gravitimagneetilise 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$B_G$
+\end_layout
+
+\end_inset
+
+ välja tekitamine
+\end_layout
+
+\begin_layout Standard
+2 samasuguse silindrit pöörlevad paraleelselt ehk mõlema silindri pöörlmisteljed
+ ühtivad.
+ 2 pöörlev silindri vahele tekib graviti magnetväli.
+ 2 silindri vahel ja silindriga võrrreldes väikeste mõõtmetega ruumalas,
+ mida läbivad mõlema silindri pöörlemisteljed tekib ligikaudu(selles lähenduses)
+ homogeenne gravitimagnetväli 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$B_G$
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$B_G=
+\backslash
+frac{d^2m}{dl*dt}*
+\backslash
+mu_G$
+\end_layout
+
+\end_inset
+
+( http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/solenoid.html ja eletromagneti
+smi ja gravitomagnetismi analoogiale tuginedes)
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+frac{d^2m}{dl*dt}=
+\backslash
+int_{r_1}^{r_2}(dr*
+\backslash
+rho*v(r))=
+\backslash
+int_{r_1}^{r_2}(dr*
+\backslash
+rho*
+\backslash
+omega*r)=
+\backslash
+rho*
+\backslash
+omega*
+\backslash
+int_{r_1}^{r_2}(dr*r)=
+\backslash
+frac{
+\backslash
+rho*
+\backslash
+omega*(r_2^2-r_1^2)}{2}$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+maksimaalne GMvlja tugevus silindri kohal on 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$B_G=
+\backslash
+frac{
+\backslash
+mu_G*
+\backslash
+omega*
+\backslash
+rho*(r_2^2-r_1^2)}{2}$
+\end_layout
+
+\end_inset
+
+ kus:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+omega$
+\end_layout
+
+\end_inset
+
+ on silindrite nurkkiirus
+\end_layout
+
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+mu_G$
+\end_layout
+
+\end_inset
+
+ on gravitomagneetiline konstant.
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+mu_G=
+\backslash
+frac{2*2
+\backslash
+pi*G}{c^2} 
+\backslash
+approx 9.331345047580891*10^{-27}*N/kg^2*s^2=9.331345047580891*10^{-27}*s/kg$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+rho$
+\end_layout
+
+\end_inset
+
+ on slindri tihedus.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$r_2$%panna muutuja nimeks hoopis R
+\end_layout
+
+\end_inset
+
+ on slndr välimine raadius.
+\end_layout
+
+\begin_layout Standard
+Et leida maksimaalset nurkkiirust, mis silindril olla saab ilma,et see inertsiaa
+lsete jõudude tõttu puruneks kasutan neid kahte iternetist leitud valemi
+ silindri radiaalse(keskounktist eemale) ja tangensiaalse(joonkiiruse suunalise)
+ pinge leidmiseks.
+ valemid sain(http://www.roymech.co.uk/Useful_Tables/Cams_Springs/Flywheels.html)
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+sigma_{radiaal
+\backslash
+ max}=
+\backslash
+frac{
+\backslash
+rho*
+\backslash
+omega*(3+
+\backslash
+mu)*(r_2-r_1)^2}{8}$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+sigma_{tangensiaal
+\backslash
+ max}=
+\backslash
+frac{
+\backslash
+rho*
+\backslash
+omega*((1-
+\backslash
+mu)*r_1^2+(3+
+\backslash
+mu)*r_2^2)}{4}$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+mu$
+\end_layout
+
+\end_inset
+
+ on siin aine, millest silidr tehtud on poissoni tegur.
+\end_layout
+
+\begin_layout Standard
+eeldan, et keha ei murdu kui nende ristuvate pingete ruutude summa ei ole
+ keha pingetaluvusese ruudust suurem.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+sigma_{max}=
+\backslash
+sqrt{
+\backslash
+sigma_{radiaal
+\backslash
+ max}^2+
+\backslash
+sigma_{tangensiaal
+\backslash
+ max}^2}=
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+frac{
+\backslash
+omega*
+\backslash
+rho*
+\backslash
+sqrt{(
+\backslash
+mu+3)^2*(r_1-r_2)^4+4*(r_1^2*(
+\backslash
+mu-1)-r_2^2*(
+\backslash
+mu+3))^2}}{8}$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+avaldan siit 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+omega=
+\backslash
+frac{8*
+\backslash
+sigma_{max}}{
+\backslash
+rho} 
+\backslash
+sqrt{-
+\backslash
+frac{1}{- 5 
+\backslash
+mu^2 r_1^4 + 4 
+\backslash
+mu^2 r_1^3 r_2 + 2 
+\backslash
+mu^2 r_1^2 r_2^2 + 4 
+\backslash
+mu^{2} r_1 r_2^3 - 5 
+\backslash
+mu^2 r_2^4 + 2 
+\backslash
+mu r_1^4 + 24 
+\backslash
+mu r_1^3 r_2 - 20 
+\backslash
+mu r_1^2 r_2^2 + 24 
+\backslash
+mu r_{1} r_2^3 - 30 
+\backslash
+mu r_2^4 - 13 r_1^4 + 36 r_1^3 r_2 - 78 r_1^2 r_2^2 + 36 r_1 r_2^3 - 45
+ r_2^4}}$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Asendades selle 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$B_G$
+\end_layout
+
+\end_inset
+
+ avaldisse saan:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$B_G=
+\backslash
+mu_G*
+\backslash
+rho*(r_2^2-r_1^2)*
+\backslash
+frac{8*
+\backslash
+sigma_{max}}{
+\backslash
+rho} 
+\backslash
+sqrt{
+\backslash
+frac{1}{5 
+\backslash
+mu^2 r_1^4 - 4 
+\backslash
+mu^2 r_1^3 r_2 - 2 
+\backslash
+mu^2 r_1^2 r_2^2 - 4 
+\backslash
+mu^{2} r_1 r_2^3+5 
+\backslash
+mu^2 r_2^4-2 
+\backslash
+mu r_1^4-24 
+\backslash
+mu r_1^3 r_2+20 
+\backslash
+mu r_1^2 r_2^2 - 24 
+\backslash
+mu r_1 r_2^3 + 30 
+\backslash
+mu r_2^4 + 13 r_1^4 - 36 r_1^3 r_2 + 78 r_1^2 r_2^2 - 36 r_1 r_2^3 + 45
+ r_2^4}}$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+leian kõige parema täidetuse
+\end_layout
+
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$p$
+\end_layout
+
+\end_inset
+
+ on,et kui suure osa kogu raadiusest on täitmata osa raadiud
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$p=r_1/r_2$
+\end_layout
+
+\end_inset
+
+ seega 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$r_1=p*r_2$
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+asendan selle 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$B_G$
+\end_layout
+
+\end_inset
+
+ valemisse.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$B_G=4 
+\backslash
+nu_{g} 
+\backslash
+sigma 
+\backslash
+sqrt{- 
+\backslash
+frac{1}{- 5 
+\backslash
+mu^2 p^4 + 4 
+\backslash
+mu^2 p^3 + 2 
+\backslash
+mu^2 p^2 + 4 
+\backslash
+mu^2 p - 5 
+\backslash
+mu^2 + 2 
+\backslash
+mu p^4 + 24 
+\backslash
+mu p^3 - 20 
+\backslash
+mu p^2 + 24 
+\backslash
+mu p - 30 
+\backslash
+mu - 13 p^4 + 36 p^3 - 78 p^2 + 36 p - 45}}*(1- p^2)$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+,et leida parim täidetus otsin 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$p$
+\end_layout
+
+\end_inset
+
+ väärtuse, mille puhul tuletis 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$p$
+\end_layout
+
+\end_inset
+
+ kaudu on 0 ja teine tuletis on negatiivne.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+frac{
+\backslash
+partial B_G}{
+\backslash
+partial p}=0
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+land 
+\backslash
+frac{
+\backslash
+partial^2 B_G}{
+\backslash
+partial p^2}<0$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ehk
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+frac{
+\backslash
+partial (
+\backslash
+frac{
+\backslash
+mu_G*
+\backslash
+rho*_
+\backslash
+Delta l*(2*r_2-_
+\backslash
+Delta l)*8*
+\backslash
+sigma_{max}}{
+\backslash
+rho} 
+\backslash
+sqrt{
+\backslash
+frac{1}{5 _
+\backslash
+Delta l^4 
+\backslash
+mu^2 - 2 _
+\backslash
+Delta l^4 
+\backslash
+mu + 13 _
+\backslash
+Delta l^4 - 16 _
+\backslash
+Delta l^3 
+\backslash
+mu^2 r_2 + 32 _
+\backslash
+Delta l^3 
+\backslash
+mu r_2 - 16 _
+\backslash
+Delta l^3 r_2 + 16 _
+\backslash
+Delta l^2 
+\backslash
+mu^2 r_2^2 - 64 _
+\backslash
+Delta l^2 
+\backslash
+mu r_2^2 + 48 _
+\backslash
+Delta l^2 r_2^2 + 64 _
+\backslash
+Delta l 
+\backslash
+mu r_2^3 - 64 _
+\backslash
+Delta l r_2^3 + 64 r_2^4}})}{
+\backslash
+partial _
+\backslash
+Delta l}=0
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+land 
+\backslash
+frac{
+\backslash
+partial^2 (
+\backslash
+frac{
+\backslash
+mu_G*
+\backslash
+rho*_
+\backslash
+Delta l*(2*r_2-_
+\backslash
+Delta l)*8*
+\backslash
+sigma_{max}}{
+\backslash
+rho} 
+\backslash
+sqrt{
+\backslash
+frac{1}{5 _
+\backslash
+Delta l^4 
+\backslash
+mu^2 - 2 _
+\backslash
+Delta l^4 
+\backslash
+mu + 13 _
+\backslash
+Delta l^4 - 16 _
+\backslash
+Delta l^3 
+\backslash
+mu^2 r_2 + 32 _
+\backslash
+Delta l^3 
+\backslash
+mu r_2 - 16 _
+\backslash
+Delta l^3 r_2 + 16 _
+\backslash
+Delta l^2 
+\backslash
+mu^2 r_2^2 - 64 _
+\backslash
+Delta l^2 
+\backslash
+mu r_2^2 + 48 _
+\backslash
+Delta l^2 r_2^2 + 64 _
+\backslash
+Delta l 
+\backslash
+mu r_2^3 - 64 _
+\backslash
+Delta l r_2^3 + 64 r_2^4}})}{
+\backslash
+partial _
+\backslash
+Delta l^2}<0$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ehk
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+tiny$
+\backslash
+frac{
+\backslash
+nu_{g} 
+\backslash
+sigma 
+\backslash
+sqrt{- 
+\backslash
+frac{1}{- 5 
+\backslash
+mu^2 p^4 + 4 
+\backslash
+mu^2 p^3 + 2 
+\backslash
+mu^2 p^2 + 4 
+\backslash
+mu^2 p - 5 
+\backslash
+mu^2 + 2 
+\backslash
+mu p^4 + 24 
+\backslash
+mu p^3 - 20 
+\backslash
+mu p^2 + 24 
+\backslash
+mu p - 30 
+\backslash
+mu - 13 p^4 + 36 p^3 - 78 p^2 + 36 p - 45}}}{5 
+\backslash
+mu^2 p^4 - 4 
+\backslash
+mu^2 p^3 - 2 
+\backslash
+mu^2 p^2 - 4 
+\backslash
+mu^2 p + 5 
+\backslash
+mu^2 - 2 
+\backslash
+mu p^4 - 24 
+\backslash
+mu p^3 + 20 
+\backslash
+mu p^2 - 24 
+\backslash
+mu p + 30 
+\backslash
+mu + 13 p^4 - 36 p^3 + 78 p^2 - 36 p + 45} 
+\backslash
+left(8 
+\backslash
+mu^2 p^4 - 32 
+\backslash
+mu^2 p^3 + 48 
+\backslash
+mu^2 p^2 - 32 
+\backslash
+mu^2 p + 8 
+\backslash
+mu^2 + 48 
+\backslash
+mu p^4 - 64 
+\backslash
+mu p^3 + 288 
+\backslash
+mu p^2 - 320 
+\backslash
+mu p + 48 
+\backslash
+mu + 72 p^4 - 416 p^3 + 432 p^2 - 672 p + 72
+\backslash
+right)=0
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+land 
+\backslash
+frac{
+\backslash
+partial^2 B_G}{
+\backslash
+partial _
+\backslash
+Delta l^2}<0$
+\backslash
+normalsize
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ehk
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+tiny$8 
+\backslash
+mu^2 p^4 - 32 
+\backslash
+mu^2 p^3 + 48 
+\backslash
+mu^2 p^2 - 32 
+\backslash
+mu^2 p + 8 
+\backslash
+mu^2 + 48 
+\backslash
+mu p^4 - 64 
+\backslash
+mu p^3 + 288 
+\backslash
+mu p^2 - 320 
+\backslash
+mu p + 48 
+\backslash
+mu + 72 p^4 - 416 p^3 + 432 p^2 - 672 p + 72=0
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+land 
+\backslash
+frac{
+\backslash
+partial^2 B_G}{
+\backslash
+partial _
+\backslash
+Delta l^2}<0$
+\backslash
+normalsize
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+lasilk asendus:
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$r_1=p*r_2$
+\end_layout
+
+\end_inset
+
+.
+ lihtsam parim p leida kui parim _Delta l leida
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+tiny 
+\backslash
+frac{1 
+\backslash
+nu_{g} 
+\backslash
+sigma 
+\backslash
+sqrt{- 
+\backslash
+frac{1}{- 5 
+\backslash
+mu^2 p^4 + 4 
+\backslash
+mu^2 p^3 + 2 
+\backslash
+mu^2 p^2 + 4 
+\backslash
+mu^2 p - 5 
+\backslash
+mu^2 + 2 
+\backslash
+mu p^4 + 24 
+\backslash
+mu p^3 - 20 
+\backslash
+mu p^2 + 24 
+\backslash
+mu p - 30 
+\backslash
+mu - 13 p^4 + 36 p^3 - 78 p^2 + 36 p - 45}}}{5 
+\backslash
+mu^2 p^4 - 4 
+\backslash
+mu^2 p^3 - 2 
+\backslash
+mu^2 p^2 - 4 
+\backslash
+mu^2 p + 5 
+\backslash
+mu^2 - 2 
+\backslash
+mu p^4 - 24 
+\backslash
+mu p^3 + 20 
+\backslash
+mu p^2 - 24 
+\backslash
+mu p + 30 
+\backslash
+mu + 13 p^4 - 36 p^3 + 78 p^2 - 36 p + 45} 
+\backslash
+left(8 
+\backslash
+mu^2 p^4 - 32 
+\backslash
+mu^2 p^3 + 48 
+\backslash
+mu^2 p^2 - 32 
+\backslash
+mu^2 p + 8 
+\backslash
+mu^2 + 48 
+\backslash
+mu p^4 - 64 
+\backslash
+mu p^3 + 288 
+\backslash
+mu p^2 - 320 
+\backslash
+mu p + 48 
+\backslash
+mu + 72 p^4 - 416 p^3 + 432 p^2 - 672 p + 72
+\backslash
+right)$
+\backslash
+normalsize
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Parimatel praktikas saavutatavatel tingimustel kui:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$r_1=0.252149098288748*m$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$r_2=5*m$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+mu 
+\backslash
+approx -2$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+rho 
+\backslash
+approx 22570$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+sigma_{max}
+\backslash
+approx 3.3*10^{-10}$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Siis 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$B_G 
+\backslash
+approx 5,56488343912850*10^{-16}*s^{-1}$
+\end_layout
+
+\end_inset
+
+ ja 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+omega=211922,047556145*s^{-1}$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+GM välja detekteerimise meetodid
+\end_layout
+
+\begin_layout Subsection
+keerleva ketta keeramine
+\end_layout
+
+\begin_layout Standard
+Sekundaarse silindri(güroskoobi) pöörlemistelg on primaarse silindriga 90
+ kraadi kaldus.
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+tau=4*M_{gravitomagnetmoment}*B_G$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Teise ketta gravitomagnetmoment on 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$M_{gravitomagnetmoment}=
+\backslash
+frac{2
+\backslash
+pi*
+\backslash
+rho*R_2^4*h*
+\backslash
+omega_2}{8}$
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Seega jõumoment sekundaarsele silindrile on 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+tau=
+\backslash
+frac{2
+\backslash
+pi*
+\backslash
+rho*R_2^4*h*
+\backslash
+omega_2*B_G}{2}
+\backslash
+approx 8.354728949520396*10^{-6}$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+laserkiire suuna muutusega
+\end_layout
+
+\begin_layout Standard
+Laserkiire suunamuutus peale pikkus l läbimist homogeeenses gravitimagneetilises
+ väljas tugevusega B_G
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$_
+\backslash
+Delta 
+\backslash
+alpha 
+\backslash
+approx 4*B_G*l
+\backslash
+approx 1.3905255973313401e-10*rad $
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+tagasipeegeldamise abil võib kiire pikkus olla näiteks 500 meetrit.
+\end_layout
+
+\begin_layout Subsection
+Laser interferomeetriga
+\end_layout
+
+\begin_layout Standard
+Tuleb uurida, et kui suur B-vaäli minimaalselt olema peab, et seda mõõta
+ saaks.
+ B väli muudab kiire suunda, aga mitte teepikkust ja ei tekita eriti faasivahet.
+ E_G väli tekitaks faasivahet.
+ Kui footon oleks kogu silindri peatumise ajal maksimaalse gravitatsiooniväljaga
+ kohas: 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$_
+\backslash
+Delta 
+\backslash
+lambda /
+\backslash
+lambda=E_g*l/c^2$
+\end_layout
+
+\end_inset
+
+ ; 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$E_G=-
+\backslash
+frac{r*
+\backslash
+frac{
+\backslash
+partial B_G}{
+\backslash
+partial t}}{2}$
+\end_layout
+
+\end_inset
+
+ seega 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$_
+\backslash
+Delta 
+\backslash
+lambda/
+\backslash
+lambda=
+\backslash
+frac{r*l*
+\backslash
+frac{
+\backslash
+partial B_G}{
+\backslash
+partial t}}{2*c^2}=
+\backslash
+frac{r*_
+\backslash
+Delta B_G}{2*c}
+\backslash
+approx 4.640613273140196e-24$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+juhul kui ühe silindri asemel oleks mitu pöörlevat ketast, mis just siis
+ peatuvad kui õige valguskiire (laserkiire) jupp neid läbib võiks saada
+ suurema muutuse lainepikuses.
+ 
+\end_layout
+
+\begin_layout Subsection
+teise suure inertsiomomendiga silndrile jõumomendi tekitamine.
+\end_layout
+
+\begin_layout Itemize
+h on teise silindri kõrgus.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+tau=
+\backslash
+int (dr*(2
+\backslash
+pi *r)*h*
+\backslash
+rho_2 *E_G*r*4)=-
+\backslash
+int (dr*(2
+\backslash
+pi *r)*h*
+\backslash
+rho_2 *
+\backslash
+frac{r*
+\backslash
+frac{
+\backslash
+partial B_G}{
+\backslash
+partial t}}{2}*r*4)=-
+\backslash
+frac{2
+\backslash
+pi *h*
+\backslash
+rho_2 *
+\backslash
+frac{
+\backslash
+partial B_G}{
+\backslash
+partial t}*(r_{2.2}^4-r_{2.1}^4)}{2}=
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+-
+\backslash
+frac{2
+\backslash
+pi *h*
+\backslash
+rho_2 *B_G*(r_{2.2}^4-r_{2.1}^4)}{2*_
+\backslash
+Delta t}$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+parimal praktiliselt saavutataval juhul kui:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+rho_2
+\backslash
+approx 22570$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+h=0,5*m
+\end_layout
+
+\end_inset
+
+ teise silindri kõrgus.(kui on täielikult homogeenses gravitimagnetväljas)
+\end_layout
+
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$_
+\backslash
+Delta t =0.1*s$
+\end_layout
+
+\end_inset
+
+ peamise silindri peatamiseks kuluv aeg.
+\end_layout
+
+\begin_layout Standard
+siis 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+tau_{parim
+\backslash
+ praktiliselt
+\backslash
+ saavutatav} 
+\backslash
+approx 9.86455531800619*10^{-16}*N*m$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+teise silndri pöörlema panemine
+\end_layout
+
+\begin_layout Itemize
+roo_2 on teise silindri tihedus
+\end_layout
+
+\begin_layout Itemize
+r_2.1 on teise õõnes silindri välimine raadius.
+\end_layout
+
+\begin_layout Itemize
+r_2.2 on teise õõnes silindri sisemine raadius.
+\end_layout
+
+\begin_layout Itemize
+E_G on gravitatsiooni väli.
+\end_layout
+
+\begin_layout Itemize
+B_G on gravitimagneetilineväli.
+\end_layout
+
+\begin_layout Itemize
+tau on jõumoment.
+\end_layout
+
+\begin_layout Itemize
+I on inertsimoment.
+\end_layout
+
+\begin_layout Standard
+GEM võrrand: 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$rot(E_G)=-
+\backslash
+frac{
+\backslash
+partial B_G}{
+\backslash
+partial t}$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$2*
+\backslash
+pi*r*E_G=-
+\backslash
+pi*r^2*
+\backslash
+frac{
+\backslash
+partial B_G}{
+\backslash
+partial t}$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$E_G=-
+\backslash
+frac{r*
+\backslash
+frac{
+\backslash
+partial B_G}{
+\backslash
+partial t}}{2}$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+tau=
+\backslash
+int (dr*(2
+\backslash
+pi *r)*h*
+\backslash
+rho_2 *E_G*r*4)=-
+\backslash
+int (dr*(2
+\backslash
+pi *r)*h*
+\backslash
+rho_2 *
+\backslash
+frac{r*
+\backslash
+frac{
+\backslash
+partial B_G}{
+\backslash
+partial t}*4}{2}*r)=-
+\backslash
+frac{2
+\backslash
+pi *h*
+\backslash
+rho_2 *
+\backslash
+frac{
+\backslash
+partial B_G}{
+\backslash
+partial t}*(r_{2.2}^4-r_{2.1}^4)}{2}$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$I=
+\backslash
+frac{m*(r_{2.2}^2-r_{2.1}^2)}{2}=
+\backslash
+frac{
+\backslash
+pi*h*
+\backslash
+rho_2*(r_{2.2}^2-r_{2.1}^2)^2}{2}$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+omega=
+\backslash
+int(
+\backslash
+frac{
+\backslash
+tau*dt}{I})=
+\backslash
+int(
+\backslash
+frac{2
+\backslash
+pi *h*
+\backslash
+rho_2 *
+\backslash
+frac{
+\backslash
+partial B_G}{
+\backslash
+partial t}*(r_{2.2}^4-r_{2.1}^4)*dt}{4*
+\backslash
+pi*h*
+\backslash
+rho_2*(r_{2.2}^2-r_{2.1}^2)^2})=
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+int(
+\backslash
+frac{
+\backslash
+frac{
+\backslash
+partial B_G}{
+\backslash
+partial t}*(r_{2.2}^4-r_{2.1}^4)*dt}{2*(r_{2.2}^2-r_{2.1}^2)^2})=
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+frac{
+\backslash
+Delta B_G*(r_{2.2}^4-r_{2.1}^4)}{2*(r_{2.2}^2-r_{2.1}^2)^2}$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+parimal juhul 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+omega_{parim} 
+\backslash
+approx 2.78105119466268e-13*s^{-1}$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+neutraalsete osakeste kõrvalekaldumine
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$F=4* B 
+\backslash
+times v$
+\end_layout
+
+\end_inset
+
+.
+ Ilmselt pole hea meetod, sest erinevalt EM-lainetest(footonitest) ei saa
+ osakesi peegeldada.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$_
+\backslash
+Delta 
+\backslash
+alpha 
+\backslash
+approx 4*B_G*l
+\backslash
+approx 1.3905255973313401e-10*rad $
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
